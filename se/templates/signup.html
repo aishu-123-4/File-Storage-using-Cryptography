@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}  
+.sign{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#name{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#sign{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+
+        </style>
+    </head>
+    <body>
+        <h2 class="title">Signup Page</h2>
+            <form method="POST" action="/signup/pass"  div class="sign">
+                    <div class="control">
+                        <label>Username :</label>
+                        <input class="input is-large" type="text" name="name" id="name" placeholder="Your Name" autofocus="">
+                        
+                    </div>
+                     <br>
+                    <div class="control">
+                        <label>Password :</label>
+                        <input class="input is-large" type="password" name="password" id="password" placeholder="Your Password">
+                    </div>
+                    <br><br> 
+                <button class="button is-block is-info is-large is-fullwidth" id="sign">SignUp</button>
+            </form>
+    </body>
+    </html>

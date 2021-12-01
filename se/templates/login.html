@@ -1,0 +1,76 @@
+
+<html>
+    <head>
+        <style>
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#id{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+
+        </style>
+    </head>
+    <body>
+    <h2 class="title">Login Page</h2>
+        <form method="POST" action="/login/pass" id="login" div class="login">
+                <div class="control">
+                    <label>Id :</label>
+                    <input class="input is-large" type="text" name="id" id="id" placeholder="Your Id" autofocus="">
+                    
+                </div>
+                 <br><br>
+                <div class="control">
+                    <label>Password :</label>
+                    <input class="input is-large" type="password" name="password" id="password" placeholder="Your Password">
+                </div>
+                <br><br> 
+            <button class="button is-block is-info is-large is-fullwidth" id="log">Login</button>
+        </form>
+</body>
+</html>
